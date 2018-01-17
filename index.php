@@ -1,5 +1,5 @@
 <?php
-require__DIR__.'vendor/autoload.php';
+require __DIR__.'vendor/autoload.php';
 use Mpociot\BotMan\BotManFactory;
 use Mpociot\BotMan\BotMan;
 use Mpociot\BotMan\Cache\DoctrineCache;
@@ -19,7 +19,7 @@ $config = [
     'slack_token' => 'YOUR-SLACK-TOKEN-HERE',
     'telegram_token' => 'YOUR-TELEGRAM-TOKEN-HERE',
     'facebook_token' => 'EAAay2RMWI3sBAIZCjSg9lVOJzSx0ZCrjAbxiWXtUPrEWUSZCRGoIiEWplegMswuux3gLQHuwrBZAqb8TMAZAvW2IZC8uHZCy0zFrwnR45aloLvVcdj2nW7DhaJiZCgPn9QHsvdaRiEPMWSCKaZBRnUrEFBlnQZCLyPEDygye8teQ4A9mKk18z7dAH5',
-    'facebook_app_secret' => 'YOUR-FACEBOOK-APP-SECRET-HERE',
+    'facebook_app_secret' => '32e5ed28eb6db874f8407e0c929ff3f7',
     'wechat_app_id' => 'YOUR-WECHAT-APP-ID',
     'wechat_app_key' => 'YOUR-WECHAT-APP-KEY',
 ];
